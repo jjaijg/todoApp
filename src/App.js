@@ -21,6 +21,7 @@ class App extends React.Component {
           </header>
           <main className="container">
             <Route path="/" exact component={TodosList} />
+            <Route path="/todoApp" exact component={TodosList} />
             <Route path="/create" component={CreateTodo} />
           </main>
         </div>
