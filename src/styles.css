@@ -1,0 +1,16 @@
+.Disabled {
+  background: transparent !important;
+  border: none;
+  color: white;
+  font-weight: 600;
+}
+
+.Completed {
+  background: green;
+  color: black;
+}
+
+svg {
+  cursor: pointer;
+  margin: 10%;
+}
